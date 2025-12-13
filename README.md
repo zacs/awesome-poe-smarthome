@@ -5,7 +5,7 @@ A list of smarthome devices designed to be PoE-first. In general, these are devi
 Cameras on PoE is very standard, so this list should only be cameras that include extra sensors.
 
 | Camera | Extra Sensors | Integratioon |
-|---|---|
+|---|---|---|
 | Unifi G4/G5/AI | Glass break and smoke detector noise sensors | Unifi Protect |
 | Unifi Doorbell G4 | Package presence |
 
