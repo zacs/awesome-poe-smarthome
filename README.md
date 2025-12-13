@@ -10,6 +10,7 @@ A list of smarthome devices designed to be PoE-first. In general, these are devi
 - [Weather / Outdoor Air Quality](#weather--outdoor-air-quality)
 - [Displays](#displays)
 - [Bluetooth Proxies / ESP32](#bluetooth-proxies--esp32)
+- [Alarm Panels](#alarm-panels)
 - [Hubs](#hubs)
 
 ## Cameras
@@ -75,7 +76,14 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 |---|---|---|
 | [GL.iNet GL-S10](https://store.gl-inet.com/products/gl-s10-ble-iot-gateway) | [Custom flashing](https://devices.esphome.io/devices/gl-inet-gl-s10/) necessary. | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
 | [Olimex ESP32-POE](https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware) | Requires a case (3D printed). Available in multiple options including one with external antenna. | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
-| [M5stack with POE](https://shop.m5stack.com/products/esp32-ethernet-unit-with-poe) | Can add external sensors for temp, etc. |  [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
+| [M5stack with POE](https://shop.m5stack.com/products/esp32-ethernet-unit-with-poe) | Can add external sensors for temp, etc. | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
+| [Kincony E16P](https://devices.esphome.io/devices/kincony-e16p/) | 16 channel relay | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
+
+## Alarm Panels
+
+| Device | Notes | Integration |
+|---|---|---|
+| [Konnected Alarm Panel Pro](https://konnected.io/products/konnected-alarm-panel-pro-12-zone-interface-kit) | 12 zone replacement board for wired alarm systems | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
 
 ## Hubs
 
