@@ -13,7 +13,7 @@ A list of smarthome devices designed to be PoE-first. In general, these are devi
 - [Hubs](#hubs)
 
 ## Cameras
-Cameras on PoE is very standard, so this list should only be cameras that include extra sensors.
+Cameras on PoE is very standard, so this list should only be cameras that include extra sensors. _Note that the Unifi cameras require an NVR or Dream Machine to operate._
 
 | Devices | Extra Sensors | Integratioon |
 |---|---|---|
@@ -35,6 +35,7 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 |---|---|---|
 | [Apollo R-Pro 1](https://apolloautomation.com/products/r-pro-1) | mmWave, Dual mmWave (optional), temp, humidity, light, LED light | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
 | [Everything Presence Pro](https://shop.everythingsmart.io/en-us/products/everything-presence-pro) | Dual mmWave, PIR, light, temp/humidity/CO2 (optional module), LED light | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
+| [Sensy-One E1](https://sensy-one.com/products/sensy-one-e1-white) | mmWave (LD2450) | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
 
 ## Lighting
 
