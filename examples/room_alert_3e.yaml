@@ -1,0 +1,9 @@
+sensor:
+  - platform: snmp
+    name: "Room Alert 3E Temperature"
+    host: x.y.z.a
+    baseoid: 1.3.6.1.4.1.20916.1.9.1.1.1.2.0
+    version: "1"
+    device_class: temperature
+    value_template: "{{ (value|float / 100.0)|float }}"
+    unit_of_measurement: "°F"
