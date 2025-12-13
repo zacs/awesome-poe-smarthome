@@ -7,7 +7,7 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 | Camera | Extra Sensors | Integratioon |
 |---|---|---|
 | Unifi G4/G5/AI | Glass break and smoke detector noise sensors | Unifi Protect |
-| Unifi Doorbell G4 | Package presence |
+| Unifi Doorbell G4 | Package presence | Unifi Protect |
 
 ## Air Quality
 
@@ -31,7 +31,7 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 
 ## Sirens/Speakers
 
-| Device | Capabilities |
+| Device | Capabilities | Integration |
 |---|---|---|
 | Unifi PoE Siren | Siren | Unifi Protect |
 | Unifi PoE Chime | Chime | Unifi Protect |
