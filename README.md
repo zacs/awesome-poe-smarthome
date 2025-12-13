@@ -6,6 +6,7 @@ A list of smarthome devices designed to be PoE-first. In general, these are devi
 - [Air Quality](#air-quality)
 - [Presence](#presence)
 - [Lighting](#lighting)
+- [Covers](#covers)
 - [Sirens/Speakers](#sirensspeakers)
 - [Weather / Outdoor Air Quality](#weather--outdoor-air-quality)
 - [Displays](#displays)
@@ -46,6 +47,12 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 | [Unifi Floodlight](https://store.ui.com/us/en/category/cameras-special-devices/products/up-floodlight)[^1] | LED floodlight with flush mount. Integrated motion sensor. | [Unifi Protect](https://www.home-assistant.io/integrations/unifiprotect/) |
 
 [^1]: Requires a Unifi NVR or Dream Machine to function.
+
+## Covers
+
+| Device | Integration |
+|---|---|
+| [Smartwings PoE Matter Over Ethernet Blinds](https://www.smartwingshome.com/pages/the-worlds-first-poe-matter-over-ethernet-motor) | Matter |
 
 ## Sirens/Speakers
 
