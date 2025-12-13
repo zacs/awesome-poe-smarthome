@@ -22,6 +22,12 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 | Apollo R-Pro 1 | mmWave, light, LED light |
 | Everything Presence Pro | mmWave, PIR |
 
+## Lighting
+
+| Device | Description |
+|---|---|
+| Unifi Floodlight | LED floodlight with flush mount. Integrated motion sensor. |
+
 ## Sirens/Speakers
 
 | Device | Capabilities |
@@ -30,9 +36,15 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 | Unifi PoE Chime | Chime |
 | Sonos Era 100 Pro | Media Player |
 
+## Weather / Outdoor Air Quality
+
+| Device | Sensors |
+|---|---|
+| [AirVisual Outdoor](https://www.iqair.com/products/air-quality-monitors/airvisual-outdoor-2-pm) | AQI, PM1, PM2.5, PM10, temperature, relative humidity, barometric pressure, CO2 |
+
 ## Honorable Mentions
 These are devices that work really well with PoE->USB adapters and can still be nicely wall-mounted. 
 
 | Device | Description |
 |---|---|
-| AirGradient | USB-powered, but mounting bracket is sized for one- or two-gang box mounts, and looks visually good on the wall. |
+| [AirGradient ONE Indoor](https://www.airgradient.com/shop/#!/AirGradient-ONE-Indoor-Monitor-I-9PSL-Fully-Assembled-&-Tested/p/594725504) | USB-powered, but mounting bracket is sized for one- or two-gang box mounts, and looks visually good on the wall. |
