@@ -112,6 +112,13 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 |---|---|---|
 | [Konnected Alarm Panel Pro](https://konnected.io/products/konnected-alarm-panel-pro-12-zone-interface-kit) | 12 zone replacement board for wired alarm systems | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
 
+## Relays
+
+| Device | Notes | Integration |
+|---|---|---|
+| [Waveshare ESP32-S3-POE-ETH-8DI-8RO](https://www.waveshare.com/esp32-s3-eth-8di-8ro.htm) | 8 relays and 8 digital inputs. Great for landscape lighting. | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
+| [Kincony E16P](https://devices.esphome.io/devices/kincony-e16p/) | 16 channel relay. Just one example, they make many sizes. | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
+
 ## Hubs
 
 | Device | Protocols |
@@ -122,11 +129,18 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 | [Aqara Hub G5 Pro PoE](https://www.aqara.com/en/product/camera-hub-g5-pro/) | Zigbee, Matter over Thread. Note: It is also a camera. |
 | [Sonoff Dongle Max](https://sonoff.tech/products/sonoff-dongle-max-zigbee-thread-poe-dongle-dongle-m) | Zigbee or Thread |
 
-## RF Control
+## RF Transmitters
 
 | Device | Description |
 |---|---|
 | [Bond Bridge Pro](https://bondhome.io/product/bond-bridge-pro/) | Supports controlling fans, shades, and fireplaces. |
+
+## IR Transmitters
+
+| Device | Description |
+|---|---|
+| [Global Cache iTach](https://www.homecontrols.com/Global-Cache-iTach-GCIP2IRP) | 3 channel IR blaster. Imtegration via API (may need some coding or maybe works with REST component. |
+| [Global Cache Global Connect GC4](https://www.homecontrols.com/Global-Cache-Global-Connect-PoE-Serial-IR-GC4NSSLIR) | Similar to above, but with ability to daisy chain devices via ethernet. |
 
 ## Small Computers
 
@@ -145,6 +159,7 @@ These devices aren't PoE for various reasons, but fit the theme of avoiding eith
 | [Yardian Pro Smart Sprinkler Controller](https://www.yardian.com/products/yardian-pro-smart-sprinkler-controller/) | Smart irrigation controller with built-in ethernet. Ac power required to manage the sprinkler solenoids, but a nice non-wifi solution. |
 | [Wattboxes](https://www.snapav.com/shop/en/snapav/wattbox) | Ethernet-controlled power strips/distribution. Expensive new, but can be extremely cheap on eBay. Generally used on higher-end smarthome with Control4, Crestron, etc. Three-outlet version are usually ~$30, and rack mountable 8/16 plug units for ~$100. Supported via a custom component in HA. |
 | [Unifi PDU Pro](https://store.ui.com/us/en/category/integrations-power-tech/collections/unifi-power-tech-power-distribution/products/usp-pdu-pro)[^1] | Another ethernet-enabled 2U rack-mount power distribution unit. Expensive, if you aren't in the Unifi ecosystem already. |
+| [Kincony AG8](https://www.kincony.com/esp32-s3-smart-ir-controller.html) | ESP32-based IR blaster. Easily powered vis PoE-to-DC splitter. |
 
 [^1]: Requires a Unifi NVR or Dream Machine to function.
 
