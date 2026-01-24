@@ -13,8 +13,10 @@ A list of smarthome devices designed to be PoE-first. In general, these are devi
 - [Displays](#displays)
 - [Bluetooth Proxies / ESP32](#bluetooth-proxies--esp32)
 - [Alarm Panels](#alarm-panels)
+- [Relays](#relays)
 - [Hubs](#hubs)
-- [RF Control](#rf-control)
+- [RF Transmitters](#rf-transmitters)
+- [IR Transmitters](#ir-transmitters)
 - [Small Computers](#small-computers)
 - [Honorable Mentions](#honorable-mentions)
   - [Mains-Powered, Ethernet-enabled](#mains-powered-ethernet-enabled)
@@ -160,6 +162,7 @@ These devices aren't PoE for various reasons, but fit the theme of avoiding eith
 | [Wattboxes](https://www.snapav.com/shop/en/snapav/wattbox) | Ethernet-controlled power strips/distribution. Expensive new, but can be extremely cheap on eBay. Generally used on higher-end smarthome with Control4, Crestron, etc. Three-outlet version are usually ~$30, and rack mountable 8/16 plug units for ~$100. Supported via a custom component in HA. |
 | [Unifi PDU Pro](https://store.ui.com/us/en/category/integrations-power-tech/collections/unifi-power-tech-power-distribution/products/usp-pdu-pro)[^1] | Another ethernet-enabled 2U rack-mount power distribution unit. Expensive, if you aren't in the Unifi ecosystem already. |
 | [Kincony AG8](https://www.kincony.com/esp32-s3-smart-ir-controller.html) | ESP32-based IR blaster. Easily powered vis PoE-to-DC splitter. |
+| [Mahtanar Heat Pump Controller](https://www.etsy.com/listing/1762258422/mahtanar-heat-pump-controller) | ESP32-based heat pump controller (for Mitsubishi and other brand mini splits). Technically it gets its power via the heat pump's CN105 plug, so not really mains powered. But you can get a version with ethernet. |
 
 [^1]: Requires a Unifi NVR or Dream Machine to function.
 
