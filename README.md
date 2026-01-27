@@ -11,7 +11,7 @@ A list of smarthome devices designed to be PoE-first. In general, these are devi
 - [Media Players](#media-players)
 - [Weather / Outdoor Air Quality](#weather--outdoor-air-quality)
 - [Displays](#displays)
-- [Bluetooth Proxies / ESP32](#bluetooth-proxies--esp32)
+- [Bluetooth Proxies](#bluetooth-proxies)
 - [Alarm Panels](#alarm-panels)
 - [Relays](#relays)
 - [Hubs](#hubs)
@@ -100,14 +100,13 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 | [Geekland Displays](https://geekland.co/product-category/wall-mount-touch-screen-tablets/) | Poe for data and power. VESA mountable. Android 13. |
 | [Unifi Connect Display](https://store.ui.com/us/en/category/digital-signage/products/uc-display21) | 21" screen that can run Android apps. $700, and requires Unifi Connect software, which means you need a Dream Machine or Cloud Key. |
 
-## Bluetooth Proxies / ESP32
+## Bluetooth Proxies
 
 | Device | Notes | Integration |
 |---|---|---|
 | [GL.iNet GL-S10](https://store.gl-inet.com/products/gl-s10-ble-iot-gateway) | [Custom flashing](https://devices.esphome.io/devices/gl-inet-gl-s10/) necessary. | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
 | [Olimex ESP32-POE](https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware) | Requires a case (3D printed). Available in multiple options including one with external antenna. | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
 | [M5stack with POE](https://shop.m5stack.com/products/esp32-ethernet-unit-with-poe) | Can add external sensors for temp, etc. | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
-| [Kincony E16P](https://devices.esphome.io/devices/kincony-e16p/) | 16 channel relay. Just one example, they make many sizes. | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
 
 ## Alarm Panels
 
