@@ -58,6 +58,7 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 |---|---|---|
 | [Unifi Floodlight](https://store.ui.com/us/en/category/cameras-special-devices/products/up-floodlight)[^1] | LED floodlight with flush mount. Integrated motion sensor. | [Unifi Protect](https://www.home-assistant.io/integrations/unifiprotect/) |
 | [SMLight A1-SLWF-09](https://smlight.tech/product/slwf-09) | LED controller for RGB light strips. Limited to ~2m of lights when operating on POE alone. | WLED, ESPHome |
+| [Algo 8128 Visual Alerter (Strobe Light)](https://www.algosolutions.com/wp-content/uploads/2025/11/8128-Product-Sheet.pdf) | A strobe light meant for VOIP systems, used for emergency notifications. | REST |
 
 [^1]: Requires a Unifi NVR or Dream Machine to function.
 
