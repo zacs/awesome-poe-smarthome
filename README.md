@@ -41,6 +41,7 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 |---|---|---|
 | [Awair Omni](https://www.getawair.com/products/omni) | Temp, Humidity, PM2.5, tVOC, CO2, Light, Noise | [Awair](https://www.home-assistant.io/integrations/awair/); [REST Sensors](https://www.home-assistant.io/integrations/rest/) |
 | [Room Alert 3E](https://avtech.com/articles/4778/product-spotlight-room-alert-3e-for-temperature-and-environment-monitoring/) | Temp | [SNMP](https://www.home-assistant.io/integrations/snmp/) ([example config](/examples/room_alert_3e.yaml))|
+| [Monnit PoeX Series](https://www.monnit.com/featured-products/PoEX) | Quite pricey. Options for temp, humidity, leaks, etc. | Modbus |
 
 ## Presence
 
@@ -74,15 +75,18 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 |---|---|---|
 | [Unifi PoE Siren](https://store.ui.com/us/en/category/all-cameras-nvrs/collections/special-devices-sirens/products/up-siren-poe)[^1] | Siren | [Unifi Protect](https://www.home-assistant.io/integrations/unifiprotect/) |
 | [Unifi PoE Chime](https://store.ui.com/us/en/category/cameras-doorbells/collections/pro-store-doorbells-chimes/products/uacc-chime-poe)[^1] | Chime | [Unifi Protect](https://www.home-assistant.io/integrations/unifiprotect/) |
+| [Algo VOIP Speakers/Sirens](https://www.algosolutions.com/products/ip-speakers/)[^2] | Siren, Chime, Speaker | No HA integration, would need to be controlled by Unifi Talk, Asterisk, FreePBX, etc. |
 
 [^1]: Requires a Unifi NVR or Dream Machine to function.
+[^2]: The 8180 sells for semi-cheap on eBay.
 
 ## Media Players
 
-| Device | Integration |
-|---|---|
-| [Sonos Era 100 Pro](https://www.sonos.com/en-us/shop/era-100-pro) | [Sonos](https://www.home-assistant.io/integrations/sonos/) |
-| [Unifi PoE Audio Port](https://store.ui.com/us/en/products/upl-port) | Airplay |
+| Device | Integration | Notes |
+|---|---|---|
+| [Sonos Era 100 Pro](https://www.sonos.com/en-us/shop/era-100-pro) | [Sonos](https://www.home-assistant.io/integrations/sonos/) | Very difficult to find, since Sonos will only sell to professional installers. |
+| [Unifi PoE Audio Port](https://store.ui.com/us/en/products/upl-port) | Airplay | Device also has HDMI input for audio. |
+| [Polycom Trio 8800](https://support.hp.com/us-en/product/details/trio-8800-series/model/2101722139) | Airplay, [Poly](https://github.com/zacs/ha-polycom_speakerphone) | A nice-looking VOIP speakerphone that also has the option to be an Airplay device. Can find on eBay for ~$30. |
 
 ## Weather / Outdoor Air Quality
 
@@ -118,8 +122,9 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 
 | Device | Notes | Integration |
 |---|---|---|
-| [Waveshare ESP32-S3-POE-ETH-8DI-8RO](https://www.waveshare.com/esp32-s3-eth-8di-8ro.htm) | 8 relays and 8 digital inputs. Great for landscape lighting. | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
+| [Waveshare ESP32-S3-POE-ETH-8DI-8RO](https://www.waveshare.com/esp32-s3-eth-8di-8ro.htm) | 8 relays and 8 digital inputs. Great for landscape lighting, sprinklers (or other solenoids), pumps. Bluetooth proxy. | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
 | [Kincony E16P](https://devices.esphome.io/devices/kincony-e16p/) | 16 channel relay. Just one example, they make many sizes. | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
+| [Waveshare ESP32-S3-POE-ETH-8DI-8DO](https://www.waveshare.com/esp32-s3-poe-eth-8di-8do.htm) | Not exactly a realy, but an 8 channel digital input and output. Bluetooth proxy. | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
 
 ## Hubs
 
@@ -141,7 +146,7 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 
 | Device | Description |
 |---|---|
-| [Global Cache iTach](https://www.homecontrols.com/Global-Cache-iTach-GCIP2IRP) | 3 channel IR blaster. Imtegration via API (may need some coding or maybe works with REST component. |
+| [Global Cache iTach](https://www.homecontrols.com/Global-Cache-iTach-GCIP2IRP) | 3 channel IR blaster. Imtegration via API (may need some coding or maybe works with REST component). |
 | [Global Cache Global Connect GC4](https://www.homecontrols.com/Global-Cache-Global-Connect-PoE-Serial-IR-GC4NSSLIR) | Similar to above, but with ability to daisy chain devices via ethernet. |
 
 ## Small Computers
