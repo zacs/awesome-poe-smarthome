@@ -169,6 +169,7 @@ These devices aren't PoE for various reasons, but fit the theme of avoiding eith
 | [Unifi PDU Pro](https://store.ui.com/us/en/category/integrations-power-tech/collections/unifi-power-tech-power-distribution/products/usp-pdu-pro)[^1] | Another ethernet-enabled 2U rack-mount power distribution unit. Expensive, if you aren't in the Unifi ecosystem already. |
 | [Kincony AG8](https://www.kincony.com/esp32-s3-smart-ir-controller.html) | ESP32-based IR blaster. Easily powered vis PoE-to-DC splitter. |
 | [Mahtanar Heat Pump Controller](https://www.etsy.com/listing/1762258422/mahtanar-heat-pump-controller) | ESP32-based heat pump controller (for Mitsubishi and other brand mini splits). Technically it gets its power via the heat pump's CN105 plug, so not really mains powered. But you can get a version with ethernet. |
+| [Shelly Smart Professional Devices](https://us.shelly.com/collections/smart-professional-devices) | Series of relays and energy monitors, many of which have ethernet. DIN mounted, high voltage, and many with multiple channels. |
 
 [^1]: Requires a Unifi NVR or Dream Machine to function.
 
