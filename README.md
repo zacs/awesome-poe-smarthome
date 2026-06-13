@@ -42,6 +42,7 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 | [Awair Omni](https://www.getawair.com/products/omni) | Temp, Humidity, PM2.5, tVOC, CO2, Light, Noise | [Awair](https://www.home-assistant.io/integrations/awair/); [REST Sensors](https://www.home-assistant.io/integrations/rest/) |
 | [Room Alert 3E](https://avtech.com/articles/4778/product-spotlight-room-alert-3e-for-temperature-and-environment-monitoring/) | Temp | [SNMP](https://www.home-assistant.io/integrations/snmp/) ([example config](/examples/room_alert_3e.yaml))|
 | [Monnit PoeX Series](https://www.monnit.com/featured-products/PoEX) | Quite pricey. Options for temp, humidity, leaks, etc. | Modbus |
+| [Unifi Vape Detection & Air Quality Sensor](https://store.ui.com/us/en/products/up-airquality) | Temp, Humidity, CO2, PM1, PM2.5, PM4, PM10, VOC, AQI, NOx, Vape | [Unifi Protect](https://www.home-assistant.io/integrations/unifiprotect/) |
 
 ## Presence
 
