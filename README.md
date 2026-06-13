@@ -77,6 +77,8 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 |---|---|---|
 | [Unifi PoE Siren](https://store.ui.com/us/en/category/all-cameras-nvrs/collections/special-devices-sirens/products/up-siren-poe)[^1] | Siren | [Unifi Protect](https://www.home-assistant.io/integrations/unifiprotect/) |
 | [Unifi PoE Chime](https://store.ui.com/us/en/category/cameras-doorbells/collections/pro-store-doorbells-chimes/products/uacc-chime-poe)[^1] | Chime | [Unifi Protect](https://www.home-assistant.io/integrations/unifiprotect/) |
+| [Unifi AI Speaker](https://store.ui.com/us/en/category/cameras-superlink-sensors/products/up-ai-speaker)[^1] | Speaker, Chime | [Unifi Protect](https://www.home-assistant.io/integrations/unifiprotect/) |
+| [Unifi AI Horn Speaker](https://store.ui.com/us/en/category/cameras-superlink-sensors/products/up-ai-horn-speaker)[^1] | Speaker, Chime, Very Loud | [Unifi Protect](https://www.home-assistant.io/integrations/unifiprotect/) |
 | [Algo VOIP Speakers/Sirens](https://www.algosolutions.com/products/ip-speakers/)[^2] | Siren, Chime, Speaker | No HA integration, would need to be controlled by Unifi Talk, Asterisk, FreePBX, etc. |
 
 [^1]: Requires a Unifi NVR or Dream Machine to function.
