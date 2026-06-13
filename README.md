@@ -6,6 +6,8 @@ A list of smarthome devices designed to be PoE-first. In general, these are devi
 - [Air Quality](#air-quality)
 - [Presence](#presence)
 - [Lighting](#lighting)
+- [Water Usage Monitoring](#water-usage-monitoring)
+- [Energy Monitoring](#energy-monitoring)
 - [Covers](#covers)
 - [Sirens/Speakers](#sirensspeakers)
 - [Media Players](#media-players)
@@ -43,6 +45,8 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 | [Room Alert 3E](https://avtech.com/articles/4778/product-spotlight-room-alert-3e-for-temperature-and-environment-monitoring/) | Temp | [SNMP](https://www.home-assistant.io/integrations/snmp/) ([example config](/examples/room_alert_3e.yaml))|
 | [Monnit PoeX Series](https://www.monnit.com/featured-products/PoEX) | Quite pricey. Options for temp, humidity, leaks, etc. | Modbus |
 | [Unifi Vape Detection & Air Quality Sensor](https://store.ui.com/us/en/products/up-airquality) | Temp, Humidity, CO2, PM1, PM2.5, PM4, PM10, VOC, AQI, NOx, Vape | [Unifi Protect](https://www.home-assistant.io/integrations/unifiprotect/) |
+| [UltimateSensor v2](https://smarthomeshop.io/en/products/ultimatesensor-v2) | mmWave (LD2412 + LD2450), PIR, CO2, temp, humidity, VOC, lux |
+| [UltimateSensor Mini V2](https://smarthomeshop.io/en/products/ultimatesensor-mini-v2) | mmWave (LD2412 + LD2450), CO2, temp, humidity, VOC, lux |
 
 ## Presence
 
@@ -52,6 +56,8 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 | [Everything Presence Pro](https://shop.everythingsmart.io/en-us/products/everything-presence-pro) | Dual mmWave, PIR, light, temp/humidity/CO2 (optional module), LED light | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
 | [Sensy-One E1](https://sensy-one.com/products/sensy-one-e1-white) | mmWave (LD2450) | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
 | [CeilSense](https://smarthomeshop.io/en/products/ceilsense) | mmWave (LD2412S), lux, LED light. Optional: temp, humidity, CO2) | [ESPHome](https://www.home-assistant.io/integrations/esphome/) |
+| [UltimateSensor v2](https://smarthomeshop.io/en/products/ultimatesensor-v2) | mmWave (LD2412 + LD2450), PIR, CO2, temp, humidity, VOC, lux |
+| [UltimateSensor Mini V2](https://smarthomeshop.io/en/products/ultimatesensor-mini-v2) | mmWave (LD2412 + LD2450), CO2, temp, humidity, VOC, lux |
 
 ## Lighting
 
@@ -62,6 +68,19 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 | [Algo 8128 Visual Alerter (Strobe Light)](https://www.algosolutions.com/wp-content/uploads/2025/11/8128-Product-Sheet.pdf) | A strobe light meant for VOIP systems, used for emergency notifications. | REST |
 
 [^1]: Requires a Unifi NVR or Dream Machine to function.
+
+## Water Usage Monitoring
+
+| Device | Description |
+|---|---|
+| [WaterP1MeterKit V4](https://smarthomeshop.io/en/products/waterp1meterkit-v4) | Connects directly to most water meteres in Europe. |
+| [WaterFlowKit v2](https://smarthomeshop.io/en/products/waterflowkit-v2) | Connects to standard 1/2", 1" (etc) water supplies. Handles 4. Seems ideal for washing machines. |
+
+## Energy Monitoring
+
+| Device | Description |
+|---|---|
+| [WaterP1MeterKit V4](https://smarthomeshop.io/en/products/waterp1meterkit-v4) | Monitors DSMR meters (generally a European standard).  |
 
 ## Covers
 
