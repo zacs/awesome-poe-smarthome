@@ -192,6 +192,7 @@ These devices aren't PoE for various reasons, but fit the theme of avoiding eith
 | [Kincony AG8](https://www.kincony.com/esp32-s3-smart-ir-controller.html) | ESP32-based IR blaster. Easily powered vis PoE-to-DC splitter. |
 | [Mahtanar Heat Pump Controller](https://www.etsy.com/listing/1762258422/mahtanar-heat-pump-controller) | ESP32-based heat pump controller (for Mitsubishi and other brand mini splits). Technically it gets its power via the heat pump's CN105 plug, so not really mains powered. But you can get a version with ethernet. |
 | [Shelly Smart Professional Devices](https://us.shelly.com/collections/smart-professional-devices) | Series of relays and energy monitors, many of which have ethernet. DIN mounted, high voltage, and many with multiple channels. |
+| [Emporia Vue 3](https://shop.emporiaenergy.com/products/emporia-vue-3) | Smart home energy monitor (power not needed since it wires durectly into breaker). Ethernet connected. |
 
 [^1]: Requires a Unifi NVR or Dream Machine to function.
 
