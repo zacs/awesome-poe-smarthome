@@ -34,6 +34,7 @@ Cameras on PoE is very standard, so this list should only be cameras that includ
 | [Unifi Doorbell G4](https://store.ui.com/us/en/category/cameras-doorbells)[^1] | Motion, package presence | [Unifi Protect](https://www.home-assistant.io/integrations/unifiprotect/) |
 | [Instar POE Cameras](https://www.instar.com/en_US/compare-all-poe-surveillance-cameras-for-indoors-and-outdoors) | Motion, AI-based human/vehicle/animal detection | MQTT |
 | [Reolink](https://store.reolink.com/jp/poe-ip-cameras/) | Motion, Person/vehicle/pet detectoin. Optional: Spotlight, Siren | [Reolink](https://www.home-assistant.io/integrations/reolink/) |
+| [Twinstar AllSky](https://twinstar.si/shop/all-sky-camera-enclosure/) | camera intrinsics | MQTT Auto-Discovery |
 
 [^1]: Requires a Unifi NVR or Dream Machine to function.
 
